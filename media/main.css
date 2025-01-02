@@ -1,0 +1,24 @@
+.navigation-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navigation-button:hover {
+    background-color: var(--vscode-list-hoverBackground);
+}
+
+.navigation-button .icon {
+    margin-right: 4px;
+}
+
+/* 让按钮在同一行显示 */
+.localai-navigation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 8px;
+}
